@@ -7,18 +7,11 @@ distanceFromHqInBlocks(43)
 distanceFromHqInBlocks(50)
 distanceFromHqInBlocks(34)
 function distanceFromHqInFeet(pickUp){
-    // if(pickUp === 43) { 
-    //     return 264
-    // }
-    // if(pickUp === 50){
-    //     return 2112
-    // }
-    // if(pickUp === 34){
-    //     return 2112
-    // }
+    
     return (distanceFromHqInBlocks(pickUp)*264)
+    
 }
-distanceFromHqInFeet(43);
+distanceFromHqInFeet()
 function distanceTravelledInFeet(start, destination){
     return Math.abs(destination - start) * 264;//change number to absolute when negated
 }
